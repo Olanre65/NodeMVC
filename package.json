@@ -2,7 +2,7 @@
   "name": "nodeexpressmvc",
   "version": "1.0.0",
   "description": "MVC Application with Node Express EJS and MySQL",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
@@ -25,5 +25,10 @@
     "mysql2": "^2.1.0",
     "nodemon": "^2.0.4",
     "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.2"
   }
 }
